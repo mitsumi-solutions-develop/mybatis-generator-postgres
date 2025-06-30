@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.mitsumi-solutions-develop</groupId>
     <artifactId>mybatis-generator-postgres</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>mybatis-generator-postgres</name>
     <description>mybatis-generator-postgres</description>
@@ -43,6 +43,9 @@
         <lombok.version>1.18.38</lombok.version>
 
         <mitsumi-solutions.java-shared-utils.version>1.0.2</mitsumi-solutions.java-shared-utils.version>
+
+        <slf4j.version>2.0.17</slf4j.version>
+        <logback.version>1.5.18</logback.version>
     </properties>
 
     <dependencies>
@@ -74,6 +77,22 @@
         </dependency>
 
 
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${logback.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
