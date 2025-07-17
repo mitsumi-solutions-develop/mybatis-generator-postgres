@@ -12,7 +12,6 @@ public class PostgresDynamicSqlMapperGenerator extends DynamicSqlMapperGenerator
     }
 
     @Override
-    @SuppressWarnings("PMD.LocalVariableCouldBeFinal")
     protected void addBasicInsertMethod(final Interface interfaze) {
         final PostgresBasicInsertMethodGenerator generator = new PostgresBasicInsertMethodGenerator.Builder()
             .withContext(context)
