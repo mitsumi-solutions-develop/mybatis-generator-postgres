@@ -2,7 +2,7 @@ package io.github.mitsumi.solutions.mybatis.generator.postgres.resolvers.constan
 
 import lombok.experimental.UtilityClass;
 
-@SuppressWarnings({"PMD.CommentRequired", "PMD.DataClass"})
+@SuppressWarnings({"PMD.CommentRequired"})
 @UtilityClass
 public class PostgresTypeName {
 

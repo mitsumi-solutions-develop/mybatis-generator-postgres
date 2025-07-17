@@ -14,7 +14,7 @@ import java.util.Properties;
 import java.util.UUID;
 
 @NoArgsConstructor
-@SuppressWarnings({"PMD.LongVariable", "PMD.UseExplicitTypes", "PMD.CommentRequired"})
+@SuppressWarnings({"PMD.LongVariable", "PMD.CommentRequired"})
 public class JavaTypeResolver extends JavaTypeResolverDefaultImpl {
 
     private String jsonModelsPackage;
