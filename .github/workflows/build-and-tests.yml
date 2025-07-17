@@ -28,5 +28,5 @@ jobs:
       - name: Source code check
         run: mvn clean pmd:check
       - name: Test with Maven
-        run: mvn clean est
+        run: mvn clean test
 
